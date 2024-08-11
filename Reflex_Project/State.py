@@ -4,7 +4,7 @@ import asyncio
 import openai
 import os
 from openai import AsyncOpenAI
-from Reflex_Project.openai_who import API_KEY
+from .openai_who import API_KEY
 
 class State(rx.State):
     # The current question being asked.

@@ -1,4 +1,3 @@
-# style.py
 import reflex as rx
 
 # Common styles for questions and answers.

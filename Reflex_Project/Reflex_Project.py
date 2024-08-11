@@ -1,9 +1,6 @@
 import reflex as rx
-from Reflex_Project import style
 from Reflex_Project.State import State
-
-# chatapp.py
-
+from Reflex_Project import style
 
 def qa(question: str, answer: str) -> rx.Component:
     return rx.box(
